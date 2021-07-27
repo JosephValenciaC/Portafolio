@@ -125,3 +125,18 @@ a.redes:hover{
     -o-transition:ease-in;
 }
 
+
+p.contacto{
+
+    color: #f5f5f5;
+
+}
+
+a.email{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.style{
+    text-align: center;
+}
