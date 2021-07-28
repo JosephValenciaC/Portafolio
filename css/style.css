@@ -46,3 +46,23 @@
     display: block;
   }
 }
+
+
+a.cv{
+  text-decoration: none;
+  padding: 10px 10px 10px 5px;
+  border-radius: 10px;
+  background-color: rgba(60, 60, 179, 0.678);
+  color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+a.cv:hover{
+
+  color: #fff;
+  background-color:rgba(44, 44, 181, 0.678);
+
+}
