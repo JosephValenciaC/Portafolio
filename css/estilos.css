@@ -275,15 +275,8 @@
   }
   
 
-div.newsletter{
-    position: relative;
-    height: auto;
-  }
-  
-  div.newsletter::before{
-    background-image: url(img/desktop.jpg);
-    content: '';
-  }
+
+
   
   div.newsletter .contenido{
     padding: 100px 0;

@@ -19,7 +19,6 @@
     width: 100%;
    }
    
-   /* media queries (personalizarlo a su antojo)*/
    @media(max-width: 900px){
     .video{
      width: 150%;
