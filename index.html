@@ -238,29 +238,30 @@
 <a class="cv" href="Joseph Valencia Cisneros - Cv.pdf" target="_blank" download="CV">
   <i class="far fa-file"></i>&nbsp;Descargar Cv.
   </a>
-
+<div class="form2">
   <form name="contact" method="POST" data-netlify="true">
     <p>
-      <label>Your Name: <input type="text" name="name" /></label>   
+      <label class="styleform">Your Name: <input type="text" name="name" /></label>   
     </p>
     <p>
-      <label>Your Email: <input type="email" name="email" /></label>
+      <label class="styleform">Your Email: <input type="email" name="email" /></label>
     </p>
     <p>
-      <label>Your Role: <select name="role[]" multiple>
-        <option value="leader">Leader</option>
-        <option value="follower">Follower</option>
-      </select></label>
+      <label class="styleform">Your Message: <textarea name="message"></textarea></label>
     </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
+   
+    <br>
+    <label class="styleform">
+      <span>Add PDF:</span>
+      <input class="file" name="file" type="file"/>
+    </label>
     <div data-netlify-recaptcha="true"></div>
+<br><br>
     <p>
-      <button type="submit">Send</button>
+      <button type="submit">Send your file</button>
     </p>
   </form>
-  
+</div>
 </div>
 
 

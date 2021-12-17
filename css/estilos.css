@@ -488,3 +488,65 @@ p.biografia{
         margin-bottom: 15px;
     }
 }
+
+
+div.form2{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #f5f4f452;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: rgb(201,56,72);
+    background: radial-gradient(circle, rgba(201,56,72,0.48783263305322133) 8%, rgba(126,105,105,0.28335084033613445) 91%);
+
+}
+
+label.styleform{
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+input.name{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+input.file{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffff;
+  color: #000000;
+  text-transform: uppercase;
+ 
+  font-size: small;
+
+}
