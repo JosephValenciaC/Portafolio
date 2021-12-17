@@ -494,7 +494,7 @@ div.form2{
     margin-top: 20px;
     border-radius: 20px;
     background-color: #f5f4f452;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 100px;
@@ -512,14 +512,17 @@ div.form2{
 
 label.styleform{
   color: rgba(255, 255, 255, 0.925);
-  font-size: 1.2em;
+  font-size: 15px;
+  padding-left: 5px;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
+  animation: backInUp;
+  animation-duration: 1.5s;
 }
 
 input.name{
-  width: 100%;
+  width: 80%;
   padding: 10px;
   border: 1px solid #ffff;
   border-radius: 50px;
@@ -533,20 +536,94 @@ input.file{
   border: 1px solid #ffff;
   border-radius: 50px;
   margin-bottom: 10px;
+  font-size: 10px;
   font-family: 'Oswald', sans-serif;
 }
 
-button{
+button.button{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffff;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 10px;
+
+}
+
+input.name{
+  width: 150%;
+  padding: 5px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+textarea.name{
+  font-style: normal;
+  width: 200%;
+  padding: 5px;
+  border: 1px solid #ffff;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 780px){
+ 
+  div.form2{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+label.styleform{
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+input.name{
   width: 100%;
+  padding: 5px;
+  border: 1px solid #ffff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+input.file{
+  width: 100%;
+  font-size: 10px;
   padding: 10px;
   border: 1px solid #ffff;
   border-radius: 50px;
   margin-bottom: 10px;
   font-family: 'Oswald', sans-serif;
-  background-color: #ffff;
-  color: #000000;
-  text-transform: uppercase;
- 
-  font-size: small;
+}
 
+button{
+  width: 50%;
+  padding: 5px;
+  font-size: 10px;
+
+}
+textarea.name{
+  font-style: normal;
+  width: 120%;
+
+}
 }
